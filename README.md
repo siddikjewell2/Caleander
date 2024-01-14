@@ -1,2 +1,5 @@
 # Caleander
-You can get calendar of any year in the world using this code
+import calendar 
+year = int(input("Enter your year: "))
+mm = calendar.month(year,1)
+print(calendar.calendar(year,1))
